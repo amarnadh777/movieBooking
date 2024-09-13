@@ -1,0 +1,14 @@
+.movie-cast-card > img
+{
+border-radius: 50%;
+width: 8em;
+height: 8em;
+}
+.movie-cast
+{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    overflow-x: scroll;
+    margin-left: 5%;
+}

@@ -1,0 +1,8 @@
+.seat-topbar
+{
+    width: 100%;
+    height: 14%;
+    top: 0px;
+    border-bottom: 1px solid gainsboro;
+    padding-left: 3%;
+}
