@@ -1,9 +1,9 @@
-.Home
-{
+.Home {
     margin: 0px;
 }
-.movie-cards
-{
+
+.movie-cards {
     display: flex;
     overflow-y: scroll;
+    gap: 15%;
 }
