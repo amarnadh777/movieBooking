@@ -5,5 +5,5 @@
 .movie-cards {
     display: flex;
     overflow-y: scroll;
-    gap: 15%;
+    gap: 5%;
 }
