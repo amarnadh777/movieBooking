@@ -17,27 +17,27 @@ function App() {
             <
             Route path = "/"
             element = { < Homepage > < /Homepage>}> { " " } <
-                /Route> <
+                /Route>{" "} <
                 Route
                 path = "/moviedetails/:movieid"
                 element = { < Moviedetails > < /Moviedetails>} >
                     { " " } <
-                    /Route> <
+                    /Route>{" "} <
                     Route
                     path = "/bookticket/:movieid"
                     element = { < Bookticket > < /Bookticket>} >
                         { " " } <
-                        /Route> <
+                        /Route>{" "} <
                         Route path = "/selectseat"
                         element = { < Seletseats > < /Seletseats>}> { " " } <
-                            /Route> <
+                            /Route>{" "} <
                             Route
                             path = "/bookingsummary"
                             element = { < Bookingsummary > < /Bookingsummary>} >
                                 { " " } <
-                                /Route> <
-                                /Routes> <
-                                /BrowserRouter> <
+                                /Route>{" "} <
+                                /Routes>{" "} <
+                                /BrowserRouter>{" "} <
                                 /div>
                             );
                         }
