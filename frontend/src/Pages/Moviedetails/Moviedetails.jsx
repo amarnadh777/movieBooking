@@ -129,17 +129,17 @@ function Moviedetails() {
       <h3>Cast</h3>
       <Cast data={cast}></Cast>
 
-      <h3>Crew</h3>
-      <Crew></Crew>
+      {/* <h3>Crew</h3> */}
+      {/* <Crew></Crew> */}
          <h3>Top reviews</h3>
-         <div className="}">
+         <div className="reviews">
           {reviews.map((review) =>
           {
             return(<Reviewcard data={review}></Reviewcard> )
           })}
          </div>
-      {console.log("reviews",reviews)}
-    {/* {  !loading && <Reviewcard data={reviews}></Reviewcard>} */}
+      {console.log("reviews",reviews)} 
+    {  !loading && <Reviewcard data={reviews}></Reviewcard>} 
     </div>
   )
 }

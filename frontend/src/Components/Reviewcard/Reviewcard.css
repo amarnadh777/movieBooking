@@ -1,44 +1,35 @@
-.review-card
-{
+.review-card {
     border: 1px solid gainsboro;
     width: 30%;
     height: 15em;
-  margin: 1em;
-  
-
-
-
+    margin: 1em;
+    overflow: hidden;
 }
-.review-userinfo
-{
+
+.review-userinfo {
     display: flex;
     align-items: center;
 }
-.review-movie-rating
-{
+
+.review-movie-rating {
     margin-left: 50%;
-    
 }
-.movie-review
-{
+
+.movie-review {
     margin: 1%;
-
-    
 }
-.review-last-row
-{
-  margin-top: 20%;
-  margin-left: 5%;
-  display: flex;
-  align-items: center;
 
-  
+.review-last-row {
+    margin-top: 20%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
 }
-.review-date
-{
+
+.review-date {
     margin-left: 55%;
 }
-.thumbsup
-{
+
+.thumbsup {
     color: red;
 }

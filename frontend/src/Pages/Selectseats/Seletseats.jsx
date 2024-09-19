@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Selectseats.css"
 import Topbar from './Topbar/Topbar'
+import { Link } from 'react-router-dom'
 function Seletseats() {
   const seats = [[0,0,0,0,0,0],[1,4,5,6,],[1,4,5,6,],[1,4,5,6,],[1,4,5,6,],[1,4,5,6,2.4,5,6,4,5]  ]
   return (
@@ -16,7 +17,7 @@ function Seletseats() {
 
               {each.map((e,index) =>
               {
-               return( <div className="seat">{index}</div>)
+               return( <Link to="/bookingsummary"> <div className="seat">    {index}  </div> </Link>)
               })}
             </div>)
           })}
