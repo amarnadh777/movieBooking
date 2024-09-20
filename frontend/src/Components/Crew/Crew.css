@@ -1,0 +1,13 @@
+.movie-crew
+{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    overflow-x: scroll;
+    margin-left: 5%;
+}
+.movie-crew-card > img
+{
+    border-radius: 50%;
+width: 8em;
+}

@@ -1,0 +1,44 @@
+.review-card
+{
+    border: 1px solid gainsboro;
+    width: 30%;
+    height: 15em;
+  margin: 1em;
+  
+
+
+
+}
+.review-userinfo
+{
+    display: flex;
+    align-items: center;
+}
+.review-movie-rating
+{
+    margin-left: 50%;
+    
+}
+.movie-review
+{
+    margin: 1%;
+
+    
+}
+.review-last-row
+{
+  margin-top: 20%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+
+  
+}
+.review-date
+{
+    margin-left: 55%;
+}
+.thumbsup
+{
+    color: red;
+}

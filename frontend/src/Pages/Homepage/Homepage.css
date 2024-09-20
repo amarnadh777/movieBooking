@@ -1,0 +1,9 @@
+.Home
+{
+    margin: 0px;
+}
+.movie-cards
+{
+    display: flex;
+    overflow-y: scroll;
+}

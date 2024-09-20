@@ -1,0 +1,46 @@
+.book-ticket-frist-row
+{
+    border: 1px solid gray;
+    width: 100%;
+    height: 6em;
+    
+}
+.bookticket-moviename
+{
+    margin-top: 2%;
+    margin-left: 2%;
+}.book-ticket-third-row
+{
+    display: flex;
+    flex-direction: column;
+}
+.theater-card
+{
+    width: 95%;
+    padding: 1em  1em ;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.theater-info
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.theater-screens
+{
+    display: flex;
+ margin-left: 15%;
+ gap: 10px;
+}
+.theater-screen
+{
+    border: 1px solid gray;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 10px;
+
+}
