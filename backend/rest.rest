@@ -1,0 +1,7 @@
+POST http://localhost:8500/movies/createmovies
+{
+    "Dfd":"343"
+
+}
+ 
+ 
